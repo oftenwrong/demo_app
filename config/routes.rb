@@ -1,5 +1,7 @@
 DemoApp::Application.routes.draw do
   
+  resources :microposts
+
   # creates a whole bunch of routes at once
   resources :users
 
