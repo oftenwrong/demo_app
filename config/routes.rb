@@ -1,5 +1,20 @@
 DemoApp::Application.routes.draw do
+  
+  # creates a whole bunch of routes at once
   resources :users
+
+  # TYPE    URL             ACTION
+  # ----    -------------   -------
+  # GET     /users          index
+  # GET     /users/1        show
+  # GET     /users/new      new
+  # POST    /users          create
+  # GET     /users/1/edit   edit
+  # PUT     /users/1        update
+  # DELETE  /users/1        destroy
+
+
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -20,6 +20,13 @@ div.field, div.actions {
   margin-bottom: 10px;
 }
 
+table {
+  width: 80%;
+  margin: 0 auto;
+}
+h1 { margin: 20px auto; width: 80%; }
+th { background: #EFEFEF; text-align: left; }
+
 #notice {
   color: green;
 }
